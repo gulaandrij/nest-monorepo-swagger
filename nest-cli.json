@@ -1,0 +1,31 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/swagger-test/src",
+  "monorepo": true,
+  "root": "apps/swagger-test",
+  "compilerOptions": {
+    "plugins": ["@nestjs/swagger/plugin"],
+    "webpack": true,
+    "tsConfigPath": "apps/swagger-test/tsconfig.app.json"
+  },
+  "projects": {
+    "swagger-test": {
+      "type": "application",
+      "root": "apps/swagger-test",
+      "entryFile": "main",
+      "sourceRoot": "apps/swagger-test/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/swagger-test/tsconfig.app.json"
+      }
+    },
+    "swagger": {
+      "type": "application",
+      "root": "apps/swagger",
+      "entryFile": "main",
+      "sourceRoot": "apps/swagger/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/swagger/tsconfig.app.json"
+      }
+    }
+  }
+}
