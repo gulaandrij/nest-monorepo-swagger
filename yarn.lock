@@ -393,10 +393,10 @@
     ts-morph "^4.0.0"
     typescript "3.4.5"
 
-"@nestjs/swagger@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@nestjs/swagger/-/swagger-4.0.2.tgz#017a3ca7d5f2a6d313a0fbea8bf206596d226a23"
-  integrity sha512-vFEex8IZf5RMPcgOBjXaikS/uirq6eglXEF7MNcpMy8viJUS6WWVC+bKMRLMErhQF/xwSVoE3xjF7bIp7Qx+tA==
+"@nestjs/swagger@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@nestjs/swagger/-/swagger-4.0.3.tgz#ee7afce52aee054593c0360f809e2abba55f7efb"
+  integrity sha512-8UsQXwscqLrofZLswxVepvNfwFAoetpijz0FNVfXAowMWITyAwQKiJ+5Yy30KdyOywMV8gqSOaFJD9KqjqZzyw==
   dependencies:
     lodash "4.17.15"
     path-to-regexp "6.1.0"
@@ -6165,7 +6165,7 @@ typescript@3.4.5:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.5.tgz#2d2618d10bb566572b8d7aad5180d84257d70a99"
   integrity sha512-YycBxUb49UUhdNMU5aJ7z5Ej2XGmaIBL0x34vZ82fn3hGvD+bgrMrVDpatgz2f7YxUMJxMkbWxJZeAvDxVe7Vw==
 
-typescript@^3.6.3:
+typescript@^3.7.3:
   version "3.7.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.3.tgz#b36840668a16458a7025b9eabfad11b66ab85c69"
   integrity sha512-Mcr/Qk7hXqFBXMN7p7Lusj1ktCBydylfQM/FZCk5glCNQJrCUKPkMHdo9R0MTFWsC/4kPFvDS0fDPvukfCkFsw==
