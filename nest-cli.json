@@ -4,7 +4,9 @@
   "monorepo": true,
   "root": "apps/swagger",
   "compilerOptions": {
-    "plugins": ["@nestjs/swagger/plugin"],
+    "plugins": [
+      "@nestjs/swagger/plugin"
+    ],
     "webpack": true,
     "tsConfigPath": "apps/swagger/tsconfig.app.json"
   },
@@ -15,8 +17,19 @@
       "entryFile": "main",
       "sourceRoot": "apps/swagger/src",
       "compilerOptions": {
-        "plugins": ["@nestjs/swagger/plugin"],
+        "plugins": [
+          "@nestjs/swagger/plugin"
+        ],
         "tsConfigPath": "apps/swagger/tsconfig.app.json"
+      }
+    },
+    "test": {
+      "type": "library",
+      "root": "libs/test",
+      "entryFile": "index",
+      "sourceRoot": "libs/test/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/test/tsconfig.lib.json"
       }
     }
   }
