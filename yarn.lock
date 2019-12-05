@@ -394,9 +394,9 @@
     typescript "3.4.5"
 
 "@nestjs/swagger@^4.0.0":
-  version "4.0.7"
-  resolved "https://registry.yarnpkg.com/@nestjs/swagger/-/swagger-4.0.7.tgz#434a01241e06c9cd842bce2add3d2af3350ccefb"
-  integrity sha512-FyBcHH2aPgsRo7/8uSirCsNX/UAF8i/uw6hf+sfjJ7CIWLVG5dHPG2nlC+7iScwrkpgUPyohA/PU+krmq9h1Aw==
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/@nestjs/swagger/-/swagger-4.0.8.tgz#1e9bae3b8f7fe446ebf8fa321d774f8af9e83857"
+  integrity sha512-GOaRW7abKaL+0li3xub+6RP/KhvpWrj+UWKe5Kop/sdi0vYInE7VH/t7kOLyeBcFZ7FVvv3MxDcYAkzFIm63Nw==
   dependencies:
     lodash "4.17.15"
     path-to-regexp "6.1.0"
